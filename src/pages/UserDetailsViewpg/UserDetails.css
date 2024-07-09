@@ -1,0 +1,130 @@
+.profileImg{
+ 
+    display: flex;
+align-items: center;
+}
+.name-tag{
+    display: flex;
+align-items: center;
+}
+.userData-details{
+    padding-left: 20px;
+    width: 40%;
+}
+.name-tag label{
+    font-size: 16px;
+    color: #ee2d2f;
+    font-weight: 800;
+}
+.name-tag p {
+    font-size: 14px;
+    color: black;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 10px;
+}
+.row-userDetails{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-top: 2em;
+    gap: 4em;
+}
+.inputfeild-userDetails{
+    padding: 9px 13px;
+    border-radius: 5px;
+    border-color: #ee2d2f;
+    color: #383434;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    font-size: 14px;
+    text-transform: capitalize;
+
+}
+.input-feild-label{
+    width: 50%;
+}
+.paragraph-details-user{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 3px;
+}
+.btn-froth{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+}
+#cars{
+    padding: 9px 13px;
+    border-radius: 5px;
+    color: #383434;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    font-size: 14px;
+    text-transform: capitalize;
+    border: 2px solid #ee2d2f;
+}
+.heading-h2-all-main{
+    font-size: 26px;
+    color: gray;
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    
+}
+.add-categroy-name{
+    display: flex;
+ justify-content: space-between;
+ width: 100%;
+ align-items: center;
+
+}
+.button-all-css{
+    padding: 5px 25px;
+    border: 2px solid #ee2d2f;
+    background: white;
+    color: #ee2d2f;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: all 0.2s ease-in;
+}
+.button-all-css:hover{
+    border: 2px solid #383434;
+    background: #ee2d2f;
+    color: white;
+}
+.spinner-overlay{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.addButton{
+    padding: 5px 10px;
+    border: 2px solid #ee2d2f;
+    background: white;
+    color: #ee2d2f;
+    border-radius: 5px;
+    font-size: 12px;
+    font-family: 'Open Sans';
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: all 0.2s ease-in; 
+    cursor: pointer;
+}
+.css-1e2bxag-MuiDataGrid-root, .MuiDataGrid-cell:focus{
+    outline: none !important;
+  } 

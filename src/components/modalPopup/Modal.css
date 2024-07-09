@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+.edit-btn-mtn{
+    width: 13em ;
+    font-family: "Open Sans", sans-serif;
+    background-color: #EE2D2F;
+    border: 2px solid #EE2D2F;
+    border-radius: 26px;
+    color: black;
+}
+.edit-btn-mtn:hover{
+    border: 2px solid #EE2D2F;
+    background-color: #b73032;
+}
+.papragraph-modal{
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
